@@ -1,0 +1,28 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environment settings (keep example files available to commit)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Generated tracking results
+/CAPSTONE/output_videos/
+/CAPSTONE/runs/
+
+# Local video inputs and downloaded model weights
+/CAPSTONE/*.mp4
+/CAPSTONE/*.pt

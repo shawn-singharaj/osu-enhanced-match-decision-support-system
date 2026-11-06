@@ -1,0 +1,6 @@
+ultralytics>=8.4.0,<9
+lap>=0.5.12
+
+
+generate_video.py depends on track_soccer.py so just run track_soccer.py
+
