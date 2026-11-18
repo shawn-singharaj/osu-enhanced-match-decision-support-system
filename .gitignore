@@ -1,0 +1,18 @@
+
+# Local data and generated results
+/data/
+/outputs/
+/runs/
+
+# Downloaded YOLO weights and exported models
+*.pt
+*.pth
+*.onnx
+
+# Python environments, caches, and downloaded packages
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.whl
